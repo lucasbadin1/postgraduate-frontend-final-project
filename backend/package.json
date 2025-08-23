@@ -1,0 +1,29 @@
+{
+  "name": "posdesweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runa-dev": "cd src && npx ts-node index.ts",
+    "run-dev": "npx ts-node src/index.ts",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/csv-parse": "^1.1.12",
+    "@types/fastify-multipart": "^0.7.2",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "@fastify/multipart": "^9.0.3",
+    "axios": "^1.9.0",
+    "csv-parse": "^6.1.0",
+    "fastify": "^5.3.3",
+    "skeleton": "git+https://github.com/ifloor/PosDesenvolvimentoWebSkeleton.git",
+    "ts-node": "^10.9.2"
+  }
+}
