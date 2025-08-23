@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -219,6 +220,7 @@ export default function ProductsPage() {
                       onChange={() => {
                         if (isInvalid) return;
                         const newSet = new Set(checked);
+                        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
                         newSet.has(i) ? newSet.delete(i) : newSet.add(i);
                         setChecked(newSet);
                       }}
