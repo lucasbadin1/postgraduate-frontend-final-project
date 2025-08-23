@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { useProducts } from "@/contexts/products-context";
 
 interface ProductCardProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   product: Product | any;
   hideActions?: boolean;
 }
