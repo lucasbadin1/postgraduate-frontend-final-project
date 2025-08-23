@@ -28,6 +28,7 @@ aparecer na lista.
 Lista de funcionalidades a serem entregues...
 
 Listagem de produtos:
+
 ● No topo da página, é exibido um campo de texto com o rótulo “Código”, em que o
 usuário pode digitar apenas números;
 ● à direita do campo “Código”, é exibido um botão com o rótulo “Buscar”, que se
@@ -41,6 +42,7 @@ cartão próprio;
 categoria, preço e descrição).
 
 Edição de produtos:
+
 ● O cartão de cada produto apresenta um botão com o rótulo “Editar”, que se clicado
 altera o cartão para o modo edição;
 ● Quando em modo edição, as informações textuais do cartão são convertidas em inputs
@@ -52,6 +54,7 @@ novos dados;
 descarta as alterações feitas e volta o cartão para o modo apenas exibição.
 
 Exclusão de produtos:
+
 ● O cartão de cada produto apresenta um botão com o rótulo “Excluir”, que se clicado
 deve abrir um alerta ou modal, com a mensagem “Você quer mesmo excluir este
 produto?” e dois botões, com os rótulos “Sim” e “Não”;
@@ -59,7 +62,8 @@ produto?” e dois botões, com os rótulos “Sim” e “Não”;
 para excluir o produto selecionado. Logo após, a listagem de produtos é exibida
 novamente e deve remover o produto excluído da lista.
 
-Carga de produtos
+Carga de produtos:
+
 ● No topo da página, deve ser exibido um campo com o rótulo “Arquivo CSV” e que
 permita ao usuário selecionar um arquivo qualquer do próprio computador;
 ● À direita deste campo, é exibido um botão com o rótulo “Enviar”, que deve estar
@@ -78,3 +82,10 @@ habilitado, podendo ser clicado;
 ● Ao clicar no botão “Enviar”, apenas os produtos com a checkbox selecionada devem
 ser criados através de requisição enviada ao backend. A página deve exibir, logo
 abaixo de cada produto enviado, o resultado da criação do mesmo (sucesso ou falha).
+
+
+                                           Como Rodar:
+
+1- Entre na pasta backend e no terminal digite o comando "npm run run-dev"
+
+2- Na pasta principal do Nextjs, utilize o comando "npm run dev" e abra a aplicação
