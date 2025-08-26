@@ -1,3 +1,22 @@
+
+                                       
+                                       
+                                                               Como Rodar:
+
+
+                                       
+1- Entre na pasta backend e no terminal digite o comando "npm run run-dev"
+
+2- Na pasta principal do Nextjs, utilize o comando "npm run dev" e abra a aplicação
+
+OBS: Ao enviar o arquivo csv ou criar um novo produto separado na rota "new product", as urls das imagens devem ser do site unsplash e no      formato ---> https://images.unsplash.com/(código da foto "abrir imagem num novo separador"). 
+O Nextjs tem essa hostname como "liberado". 
+É preciso configurar o nextConfig para novos "remotePatterns" que forem precisos.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
